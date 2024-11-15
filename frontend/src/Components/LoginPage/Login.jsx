@@ -52,9 +52,12 @@ const Login = () => {
 
   const hnadalForrgot = async () => {
     try {
-      let res = await axios.post('http://localhost:8080/user/forgotPassword', {
-        email: forgotEmail,
-      });
+      let res = await axios.post(
+        'https://nodejsclockify-backend.onrender.com/user/forgotPassword',
+        {
+          email: forgotEmail,
+        }
+      );
 
       if (res) {
         setForgotEmail('');

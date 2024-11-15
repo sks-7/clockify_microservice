@@ -40,7 +40,10 @@ const Signup = () => {
   console.log(loginCreds);
 
   function Signupdata(loginCreds) {
-    return axios.post(`http://localhost:8080/user/signup`, loginCreds);
+    return axios.post(
+      `https://nodejsclockify-backend.onrender.com/user/signup`,
+      loginCreds
+    );
   }
 
   const handleClick = () => {

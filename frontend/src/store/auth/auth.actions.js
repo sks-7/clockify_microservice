@@ -21,7 +21,10 @@ import { auth } from '../../firebase/firebase';
 export const loginAPI = (creds, toast, navigate) => async (dispatch) => {
   dispatch({ type: AUTH_LOGIN_LOADING });
   try {
-    let response = await axios.post('http://localhost:8080/user/login', creds);
+    let response = await axios.post(
+      'https://nodejsclockify-backend.onrender.com/user/login',
+      creds
+    );
     console.log(response.token, response.name);
     dispatch({ type: AUTH_LOGIN_SUCCESS, payload: response.data });
 

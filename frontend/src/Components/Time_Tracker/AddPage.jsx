@@ -42,7 +42,7 @@ const AddPage = () => {
       totalTime: totalTime,
     };
 
-    fetch(`http://localhost:8080/task/new`, {
+    fetch(`https://nodejsclockify-backend.onrender.com/task/new`, {
       // fetch(`http://localhost:8080//task/new`,{
 
       method: 'POST',
@@ -62,7 +62,9 @@ const AddPage = () => {
 
   //GET
   const getData = async () => {
-    let res = await axios.get('http://localhost:8080/task');
+    let res = await axios.get(
+      'https://nodejsclockify-backend.onrender.com/task'
+    );
 
     // let res = await axios.get('http://localhost:8080//task');
 
@@ -82,9 +84,11 @@ const AddPage = () => {
   // }
 
   const handaledelete = (id) => {
-    axios.delete(`http://localhost:8080/task/delete/${id}`).then(() => {
-      console.log(id);
-    });
+    axios
+      .delete(`https://nodejsclockify-backend.onrender.com/task/delete/${id}`)
+      .then(() => {
+        console.log(id);
+      });
     // console.log("id",id)
   };
 
