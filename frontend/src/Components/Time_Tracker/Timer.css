@@ -1,0 +1,220 @@
+.stop-watch {
+  height: 30px;
+  width: 23vw;
+  background-color: white;
+  display: flex;
+  /* flex-direction: column; */
+  align-items: center;
+  justify-content: space-between;
+}
+
+body {
+  background-color: #f2f6f8;
+}
+
+.timer {
+  /* margin : 3rem 0; */
+  width: 100%;
+  display: flex;
+  height: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.digits {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 22px;
+  color: black;
+}
+
+.mili-sec {
+  color: #03a9f4;
+}
+
+.Control-Buttons {
+  /* margin: 3rem 0; */
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-grp {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.btn {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  width: 10vw;
+  height: 30px;
+  border-radius: 14px;
+  margin: 0px 6px;
+  display: flex;
+  border: 2px solid #03a9f4;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  color: #f5f5f5;
+}
+
+.btn-one {
+  background-color: #03a9f4;
+}
+
+.btn-two {
+  background-color: red;
+}
+.full {
+  width: 100%;
+  padding-top: 4rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.st {
+  display: flex;
+  border: 1px solid gray;
+  width: 100%;
+  height: 70px;
+  background-color: white;
+  /* justify-content: center; */
+  align-items: center;
+  justify-content: space-around;
+}
+.main145 {
+  width: 100%;
+
+  padding: 20px;
+}
+.st01 {
+  width: 300px;
+}
+.timePage {
+  display: flex;
+  background-color: #f2f6f8;
+  /* height: 1000px; */
+  /* justify-content: space-between; */
+}
+.in1 {
+  /* border: 1px solid gray; */
+  width: 400px;
+  height: 40px;
+  /* margin-top: 60px; */
+  font-family: Roboto, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Helvetica Neue, Arial, Noto Sans, sans-serif, 'Apple Color Emoji',
+    'Segoe UI Emoji', Segoe UI Symbol, 'Noto Color Emoji';
+}
+.in12 {
+  /* border: 1px solid gray; */
+  width: 300px;
+  height: 40px;
+  /* margin-top: 60px; */
+  font-family: Roboto, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Helvetica Neue, Arial, Noto Sans, sans-serif, 'Apple Color Emoji',
+    'Segoe UI Emoji', Segoe UI Symbol, 'Noto Color Emoji';
+}
+.btnadd {
+  background-color: #03a9f4;
+  font-family: Roboto, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Helvetica Neue, Arial, Noto Sans, sans-serif, 'Apple Color Emoji',
+    'Segoe UI Emoji', Segoe UI Symbol, 'Noto Color Emoji';
+  color: white;
+  height: 40px;
+  width: 100px;
+}
+.addinput {
+  color: black;
+  font-size: 20px;
+  width: 100px;
+  justify-content: center;
+  /* margin-right: -100px; */
+}
+.in22 {
+  width: 50px;
+  font-size: 20px;
+}
+.bluep {
+  color: #03a9f4;
+  display: flex;
+}
+
+.pin {
+  margin-top: -5px;
+}
+.bunicon {
+  display: grid;
+  gap: 10px;
+}
+.bluep1 {
+  display: flex;
+  color: rgb(187, 184, 184);
+  align-items: center;
+}
+.hicon {
+  width: 30px;
+}
+.wname {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.wname1 {
+  border: 1px solid gray;
+  padding: 5px;
+  background-color: rgb(211, 209, 209);
+}
+.Today {
+  display: flex;
+}
+.h1 {
+  font-family: Roboto, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Helvetica Neue, Arial, Noto Sans, sans-serif, 'Apple Color Emoji',
+    'Segoe UI Emoji', Segoe UI Symbol, 'Noto Color Emoji';
+}
+.A1 {
+  width: 14%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.A2 {
+  width: 14%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #03a9f4;
+}
+.A3 {
+  width: 14%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #bbbbbb;
+}
+.A4 {
+  width: 14%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.A5 {
+  width: 14%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.A6 {
+  width: 14%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.A7 {
+  width: 14%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
